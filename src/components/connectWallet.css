@@ -1,0 +1,253 @@
+/* components/ConnectWallet.css */
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #0e172a; /* Set the background color for the entire page */
+}
+
+.connect-wallet-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #0e172a; /* Set the background color */
+    color: white; /* Set the text color */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .exchange-title {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a Uniswap-like font */
+    margin-right: 25px;
+
+  }
+  
+  .network-info {
+    font-size: 25px;
+    /* font-weight: bold; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a Uniswap-like font */
+    margin-right: 25px;
+  }
+  
+  .account-info {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .error-message {
+    color: red;
+  }
+
+  .connecting-message {
+    color: white;
+  }
+  
+  .title-and-button {
+    display: flex;
+    align-items: center;
+  }
+
+  .add-liquidity-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+  }
+
+  .add-liquidity-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #0e172a; /* Uniswap blue color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .add-liquidity-button:hover {
+    background-color: #22314e; /* Slightly darker blue on hover */
+  }
+
+  .add-liquidity-button:active {
+    background-color: #0b1220; /* Even darker blue when pressed */
+  }
+
+  .whitepaper-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #0e172a; /* Transparent background initially */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  
+  .whitepaper-button:hover {
+    background-color: #22314e; /* Lighter background on hover */
+  }
+
+  .whitepaper-button:active {
+    background-color: #0b1220; /* Even darker blue when pressed */
+  }
+
+  .network-button {
+    font-size: 20px;
+    color: #ffffff; /* White text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a Uniswap-like font */
+  }
+  
+  .account-button {
+      padding: 12px 24px;
+      font-size: 16px;
+      text-transform: uppercase;
+      background-color: rgba(14, 23, 42, 0.8); /* Transparent background initially */
+      color: #ffffff; /* White text color */
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+  }
+
+  .account-button:hover {
+    background-color: #22314e; /* Lighter background on hover */
+  }
+
+  .account-button:active {
+    background-color: #0b1220; /* Even darker blue when pressed */
+  }
+
+.swap-box-reserves {
+  display: flex;
+  flex-direction: column;
+  width: 1250px;
+  padding: 50px;
+  background-color: #0e172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Add this CSS for the table */
+.swap-box-reserves table {
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+
+.swap-box-reserves th,
+.swap-box-reserves td {
+  padding: 20px; /* Add padding to cells */
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Add bottom border to cells */
+}
+
+.swap-box-reserves th:last-child,
+.swap-box-reserves td:last-child {
+  border-right: none; /* Remove right border for last column */
+}
+
+.swap-box-reserves tbody tr:hover {
+  background-color: #152a48; /* Add hover effect for rows */
+}
+
+
+.swap-box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 30px;
+  background-color: #0e172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.label {
+  flex: 1;
+  margin-right: 20px;
+  text-align: right;
+  color: #8f9bb3;
+}
+
+.input-field,
+.select-field {
+  flex: 2;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  background-color: #152a48;
+  color: white;
+  border-radius: 8px;
+}
+
+.select-field {
+  appearance: none; /* Remove default arrow in select field */
+  background-position: right 12px center;
+  /* background: rgba(255, 255, 255, 0.9) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFFFFF' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z'/%3E%3C/svg%3E") no-repeat right 12px center; */
+  background-size: 20px 20px;
+}
+
+.swap-button {
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #172644; /* Uniswap blue color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.swap-button-container {
+  margin-top: 20px; /* Add some spacing between the input fields and the swap button */
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+}
+
+.swap-button:hover {
+  background-color: #22314e; /* Slightly darker blue on hover */
+}
+
+.swap-button:active {
+  background-color: #0b1220; /* Even darker blue when pressed */
+}
