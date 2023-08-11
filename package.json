@@ -26,7 +26,7 @@
     "web-vitals": "^2.1.4",
     "web3": "^4.0.3"
   },
-  "homepage": "http://eshumanohare.github.io",
+  "homepage": "http://eshumanohare.github.io/logicexchange",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
