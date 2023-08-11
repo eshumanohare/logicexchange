@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/logicexchange/static/css/main.f720dc34.css",
-    "main.js": "/logicexchange/static/js/main.e86ada6c.js",
+    "main.js": "/logicexchange/static/js/main.53fc6b36.js",
     "static/js/787.dd4b6462.chunk.js": "/logicexchange/static/js/787.dd4b6462.chunk.js",
     "index.html": "/logicexchange/index.html",
     "main.f720dc34.css.map": "/logicexchange/static/css/main.f720dc34.css.map",
-    "main.e86ada6c.js.map": "/logicexchange/static/js/main.e86ada6c.js.map",
+    "main.53fc6b36.js.map": "/logicexchange/static/js/main.53fc6b36.js.map",
     "787.dd4b6462.chunk.js.map": "/logicexchange/static/js/787.dd4b6462.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f720dc34.css",
-    "static/js/main.e86ada6c.js"
+    "static/js/main.53fc6b36.js"
   ]
 }

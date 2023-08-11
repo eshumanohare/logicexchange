@@ -98,7 +98,7 @@ const ConnectWallet: React.FC = () => {
     <div>
       <div className="connect-wallet-container">
         <div className="title-and-button">
-          <span className="exchange-title">LT</span>
+          <span className="exchange-title">LE</span>
           {accounts.length > 0 && (
             <button
               className="add-liquidity-button"
