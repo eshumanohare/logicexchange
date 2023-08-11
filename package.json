@@ -6,10 +6,12 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/big.js": "^6.2.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.39",
     "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
+    "big.js": "^6.2.1",
     "bn.js": "^5.2.1",
     "ethers": "^6.7.0",
     "gh-pages": "^6.0.0",
@@ -24,7 +26,7 @@
     "web-vitals": "^2.1.4",
     "web3": "^4.0.3"
   },
-  "homepage": "http://eshumanohare.github.io/logicexchange",
+  "homepage": "http://eshumanohare.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
