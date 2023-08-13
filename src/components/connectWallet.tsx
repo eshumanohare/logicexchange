@@ -90,7 +90,7 @@ const ConnectWallet: React.FC = () => {
   };
 
   const handleWhitepaperClick = () => {
-    const ipfsUrl = `https://drive.google.com/file/d/1fwHsWFN23c0rtv2rfjWzZPT9tjUasv00/view?usp=sharing`;
+    const ipfsUrl = `https://hackmd.io/@eshumanohare/Sk9qnJrh3`;
     window.open(ipfsUrl, "_blank");
   };
 
@@ -98,7 +98,7 @@ const ConnectWallet: React.FC = () => {
     <div>
       <div className="connect-wallet-container">
         <div className="title-and-button">
-          <span className="exchange-title">LE</span>
+          <span className="exchange-title">🐻‍❄️ LE</span>
           {accounts.length > 0 && (
             <button
               className="add-liquidity-button"
